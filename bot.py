@@ -34,7 +34,7 @@ async def mesaj_filtresi(update: Update, context: CallbackContext) -> None:
 # Main fonksiyonu
 def main() -> None:
     # Botunuzun tokeni
-    token = "7529357810:AAFeZp8ayk3HS5-W6T_zVZbWSfPiAEnTDic"
+    token = ""
     app = Application.builder().token(token).build()
 
     # Mesajları işleyiciye yönlendirme
